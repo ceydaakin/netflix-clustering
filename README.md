@@ -1,6 +1,16 @@
 # Netflix Show Clustering Analysis 🎬
 
+[![Python](https://img.shields.io/badge/Python-3.14+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF.svg)](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-F7931E.svg)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.3.3-150458.svg)](https://pandas.pydata.org/)
+
 A comprehensive machine learning project that groups similar Netflix shows using K-Means clustering based on genre, rating, duration, and other features.
+
+**📊 Dataset:** 8,807 real Netflix shows from Kaggle  
+**🎯 Clusters:** 2 (Movies vs TV Shows)  
+**📈 Silhouette Score:** 0.285
 
 ## 📋 Project Overview
 
@@ -189,5 +199,3 @@ netflix/
    - Within-cluster sum of squares (Inertia)
    - Silhouette coefficient
    - Cluster balance analysis
-
-
